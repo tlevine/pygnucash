@@ -6,7 +6,7 @@ import codecs
 import gnucash
 import math
 import sys
-from gnucashutil import full_acc_name
+from gnucash.util import full_acc_name
 from sys import stderr, exit
 
 out = codecs.getwriter('UTF-8')(sys.stdout)
