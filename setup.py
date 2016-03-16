@@ -11,4 +11,7 @@ setup(name='pygnucash',
       scripts=['edit.py', 'gnucash2ledger.py', 'stockreport.py'],
       version='0.1',
       license='2-clause BSD',
+      classifiers=[
+          'Programming Language :: Python :: 3.5',
+      ],
 )
